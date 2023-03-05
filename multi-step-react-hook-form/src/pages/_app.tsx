@@ -20,7 +20,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${inter.variable} font-sans`}>
-        <Component {...pageProps} />
+        <div className="w-screen h-screen flex justify-center items-center">
+          <div className="max-w-2xl h-fit p-8 m-6 rounded-lg bg-zinc-900 flex flex-col gap-12">
+            <Component {...pageProps} />
+          </div>
+        </div>
       </main>
     </>
   );
