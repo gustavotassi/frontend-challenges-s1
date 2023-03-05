@@ -12,7 +12,7 @@ export default function Home() {
         </header>
         <section className="flex flex-col gap-4">
           <p>
-            In this episode, you will encounter a multi-part form with multiple
+            In this episode, you will encounter a multi step form with multiple
             input fields that conserves its data through steps using{' '}
             <strong>Context</strong> (native from React).
           </p>
